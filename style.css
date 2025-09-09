@@ -2,17 +2,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f4f4;
-  color: #222;
-  line-height: 1.6;
-  max-width: 1000px;
-  margin: auto;
-  padding: 10px;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/418/848/880/vasco-vasco-da-gama-cross-soccer-hd-wallpaper-preview.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+main {
+  padding: 2rem;
 }
 
 
@@ -45,7 +51,7 @@ nav a {
 }
 
 nav a:hover {
-  background: #b22222; /* vermelho vinho */
+  background: #b22222;
 }
 
 main {
@@ -58,7 +64,7 @@ section {
   background: #fff;
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 section img {
@@ -66,7 +72,6 @@ section img {
   margin: 15px auto;
   border-radius: 12px;
 }
-
 
 footer {
   background: #000;
@@ -93,35 +98,6 @@ footer a:hover {
   }
 
   body {
-    padding: 5px;
+    padding: 1rem;
   }
-}h1{
-  text-align: center;
-}
-
-p{
-    width: 900px;
-    height: auto;
-    max-width: 100%;
-    padding: 5px;
-    margin: 10px ;
-
-border: 2px solid #ff0000;
-border-radius: 8px;
-box-shadow: 0 10px 4px ;
-}
-img{
-    background-image: url('imagem');
-}
-
-ul li{
-    background-color: black;
-    color: red;
-    text-align: center;
-}
-footer{
-   text-align: center;
-   margin-top: 3rem;
-   padding-top: 1rem;
-
 }
